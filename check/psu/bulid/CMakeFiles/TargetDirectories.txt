@@ -1,0 +1,5 @@
+/home/j/psu/bulid/CMakeFiles/rebuild_cache.dir
+/home/j/psu/bulid/CMakeFiles/pdg.dir
+/home/j/psu/bulid/CMakeFiles/edit_cache.dir
+/home/j/psu/bulid/CMakeFiles/intrinsics_gen.dir
+/home/j/psu/bulid/CMakeFiles/pdgStatic.dir

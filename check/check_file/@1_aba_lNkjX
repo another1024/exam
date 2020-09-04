@@ -1,0 +1,11 @@
+digraph "Program Dependency Graph for 'main' function" {
+label="Program Dependency Graph for 'main' function";
+Node0x55e25c0d6630 [label="{  var = alloca i8*, align 8}", shape=record];
+Node0x55e25c0d6690 [label="{  var = load i8*, i8** var, align 8}", shape=record];
+Node0x55e25c0d66c0 [label="{  var = call i32 (i8*, ...) @__isoc99_scanf(i8* getelementptr inbounds ([3 x i8], [3 x i8]* @.str.1, i32 0, i32 0), i8* var)}", shape=record];
+Node0x55e25c0d6920 [label="{  var = call i32 (i8*, ...) @printf(i8* getelementptr inbounds ([34 x i8], [34 x i8]* @.str, i32 0, i32 0))}", shape=record];
+Node0x55e25c0d6ab0 [label="{  var = call i32 (i8*, ...) @printf(i8* getelementptr inbounds ([26 x i8], [26 x i8]* @.str.2, i32 0, i32 0))}", shape=record];
+Node0x55e25c0d6b10 [label="{  var = call i32 (i8*, ...) @printf(i8* getelementptr inbounds ([30 x i8], [30 x i8]* @.str.3, i32 0, i32 0))}", shape=record];
+Node0x55e25c0d6630 -> Node0x55e25c0d6690  [key=0, label="{DEF_USE}", style=dotted];
+Node0x55e25c0d6690 -> Node0x55e25c0d66c0  [key=0, label="{DEF_USE}", style=dotted];
+}
